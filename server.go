@@ -15,7 +15,7 @@ func main() {
 	songsRoutes := e.Group("/songs")
 
 	songsRoutes.GET("", func(c echo.Context) error {
-		resp, err := client.Service("songs").Find()
+		resp, err := client.Service("asdf").Find()
 		if err != nil {
 			return c.JSON(http.StatusNonAuthoritativeInfo, err)
 		}
