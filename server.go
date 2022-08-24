@@ -10,7 +10,7 @@ import (
 
 func main() {
 	e := echo.New()
-	client := microgen.NewClient("033506d6-9742-4298-855a-fb19974b6c75", microgen.DefaultURL())
+	client := microgen.NewClient("b52257f4-bb1d-4d8a-a936-7ccda7536a0e", microgen.DefaultURL())
 
 	songsRoutes := e.Group("/songs")
 
